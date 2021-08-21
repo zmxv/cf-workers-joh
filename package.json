@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "cf-workers-joh",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers sample project that keeps track of Cloudflare's job opening changes",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Zhen Wang <z@zmxv.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

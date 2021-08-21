@@ -1,0 +1,14 @@
+name = "cloudflare"
+type = "webpack"
+
+account_id = "648dff629a3ffeb8300b0d2a46c9d95a"
+workers_dev = true
+route = ""
+zone_id = ""
+
+kv_namespaces = [
+	 { binding = "KV", id = "cb629c6c09d34ea98a3389491350c6d9", preview_id = "30d3dace34e242268d7f2a59f5db59b2" }
+]
+
+[triggers]
+crons = ["59 * * * *"]
